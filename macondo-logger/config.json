@@ -1,0 +1,22 @@
+{
+  "jira_url": "https://api.jaas.ea.com",
+  "browse_url": "https://jaas.ea.com",
+  "site_name": "JaaS",
+  "groq_model": "openai/gpt-oss-120b",
+  "default_issue_type": "Bug",
+  "branches": {
+    "SK8": [
+      "dingo-staging-blue",
+      "dingo-staging-blue-retail",
+      "dingo-staging-red",
+      "dingo-staging-red-retail",
+      "dingo-staging-green",
+      "dingo-main",
+      "dingo-dev",
+      "dingo-release"
+    ]
+  },
+  "bug_types": ["In-Game", "UI", "Server"],
+  "test_projects": ["PL1", "MEPLQM"],
+  "fallback_projects": {"SK8": "skate."}
+}

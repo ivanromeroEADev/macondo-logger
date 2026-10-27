@@ -1,0 +1,15 @@
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# compilacion del .exe
+build/
+dist/
+
+# datos de aprendizaje si quedaron junto al codigo (versiones viejas)
+buglogger_examples_*.json
+buglogger_stats_*.json
